@@ -1,5 +1,4 @@
 input = open('input.txt','r')
-measurements =[]
 previous, current, increasing=10000,0,0
 for line in input.readlines():
     current = int(line);
